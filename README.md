@@ -1,6 +1,15 @@
 Quick Look Plugin for WebP Files
 ================================
 
+### About this fork
+
+  This is a fork of [emin/WebPQuickLook](https://github.com/emin/WebPQuickLook)
+  with patches from:
+  	- [capnslipp](https://github.com/capnslipp/WebPQuickLook/commit/bd6ed2fcd6ab5b13a7ef230dfc973a787a5db90f), fixes memory leak;
+	- [saagarjha](https://github.com/saagarjha/WebPQuickLook/commit/0de052b23f492ee1c50e31eeb149eab886ef15c8), fixes bus error and updated libwebp to 1.0.2.
+
+  Tested on MacOSX 10.14.6, but should work on 10.9+.
+
 ### What is this?
 
   Quick Look is a part of Mac OS X. It provides you a quick way
@@ -18,7 +27,7 @@ Quick Look Plugin for WebP Files
 
   Just like an ordinary image file:
 
-  ![quicklook webp](https://raw.github.com/emin/WebPQuickLook/master/screenshot.png 'WebP')
+  ![quicklook webp](https://raw.github.com/lincerely/WebPQuickLook/master/screenshot.png 'WebP')
 
 
 ### How can I install it?
