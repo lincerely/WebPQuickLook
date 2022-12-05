@@ -29,25 +29,31 @@ Quick Look Plugin for WebP Files
   Open your terminal app (or whatever you use) and copy paste the below
   command:
 
-	curl -L https://raw.github.com/emin/WebPQuickLook/master/install.sh | sh
-
+  ```bash
+  mkdir -p ~/Library/QuickLook
+  curl -OL https://github.com/lincerely/WebPQuickLook/releases/download/v1.0.0/WebpQuickLook.qlgenerator.tar.xz
+  xattr -c WebpQuickLook.qlgenerator.tar.xz
+  tar xvf WebpQuickLook.qlgenerator.tar.xz -C ~/Library/QuickLook
+  qlmanage -r
+  ```
 
   That's it. You just installed it. Enjoy your WebP files just like ordinary
   image files.
   
-
-  If you use [homebrew](https://brew.sh/) you can do:
-  
-	brew install --cask WebPQuickLook
 
 ### The other users can't use it. What can I do?
 
   You can do it same operations by logining their account. But if you want
   to install for all users, that's simple and similar the above commands.
   Just use this installation script,
-
-    curl -L https://raw.github.com/emin/WebPQuickLook/master/install-all.sh | sh
-
+ 
+  ```bash
+  mkdir -p ~/Library/QuickLook
+  curl -OL https://github.com/lincerely/WebPQuickLook/releases/download/v1.0.0/WebpQuickLook.qlgenerator.tar.xz
+  xattr -c WebpQuickLook.qlgenerator.tar.xz
+  sudo tar xvf WebpQuickLook.qlgenerator.tar.xz -C /Library/QuickLook
+  qlmanage -r
+  ```
 
   This requires an administrator account, if you are not administrator you
   can't install it. It'll ask for password then you're done.
