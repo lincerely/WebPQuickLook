@@ -5,8 +5,9 @@ Quick Look Plugin for WebP Files
 
   This is a fork of [emin/WebPQuickLook](https://github.com/emin/WebPQuickLook)
   with patches from:
-  	- [capnslipp](https://github.com/capnslipp/WebPQuickLook/commit/bd6ed2fcd6ab5b13a7ef230dfc973a787a5db90f), fixes memory leak;
-	- [saagarjha](https://github.com/saagarjha/WebPQuickLook/commit/0de052b23f492ee1c50e31eeb149eab886ef15c8), fixes bus error and updated libwebp to 1.0.2.
+
+ - [capnslipp](https://github.com/lincerely/WebPQuickLook/pull/2), fixes memory leak;
+ - [saagarjha](https://github.com/lincerely/WebPQuickLook/pull/1), fixes bus error and updates libwebp to 1.0.2.
 
   Tested on MacOSX 10.14.6, but should work on 10.9+.
 
