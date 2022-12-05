@@ -39,6 +39,10 @@ Quick Look Plugin for WebP Files
 
   That's it. You just installed it. Enjoy your WebP files just like ordinary
   image files.
+
+  If you use [homebrew](https://brew.sh/) you can do:
+  
+	brew install --cask lincerely/tools/WebPQuickLook
   
 
 ### The other users can't use it. What can I do?
